@@ -45,10 +45,6 @@ Se verifica que ambos nodos (`master` y `worker`) se encuentran en estado `Ready
 kubectl get nodes
 ```
 
-![kubectl get nodes](evidencias/kubectl-get-nodes.png)
-
----
-
 ### 🔹 2. Pods y servicios corriendo
 
 Se despliegan los recursos de WordPress y MySQL dentro del namespace `wordpress`. Ambos pods están en estado `Running`, y los servicios están correctamente expuestos:
@@ -57,7 +53,8 @@ Se despliegan los recursos de WordPress y MySQL dentro del namespace `wordpress`
 kubectl get pods,svc -n wordpress
 ```
 
-![kubectl get pods and svc](evidencias/kubectl-get-pods-svc.png)
+![kubectl get nodes](evidencias/evidencia1.png)
+
 
 ---
 
@@ -69,7 +66,8 @@ Se accede exitosamente a la página de instalación de WordPress a través del p
 http://192.168.23.126:30080/wp-admin/install.php
 ```
 
-![wordpress nodeport](evidencias/wordpress-nodeport.png)
+![wordpress nodeport](evidencias/evidencia2.png)
+
 
 ---
 
@@ -97,5 +95,7 @@ Una vez desplegado, WordPress estará disponible desde:
 ```
 http://192.168.23.126:30080
 ```
+
+![wordpress nodeport](evidencias/evidencia3.png)
 
 ---
