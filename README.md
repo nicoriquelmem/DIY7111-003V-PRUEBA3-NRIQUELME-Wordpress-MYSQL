@@ -10,13 +10,14 @@ Evidencia y registro de lo solicitado en EA3 de la asignatura, contiene todos lo
 │   ├── evidencia1.png
 │   ├── evidencia2.png
 │   └── evidencia3.png
-├── mysql-deployment.yaml
-├── mysql-pv.yaml
-├── mysql-pvc.yaml
-├── wordpress-deployment.yaml
-├── wordpress-pv.yaml
-├── wordpress-pvc.yaml
-├── wordpress-service.yaml
+├── manifests
+│   ├── mysql-deployment.yaml
+│   ├── mysql-pv.yaml
+│   ├── mysql-pvc.yaml
+│   ├── wordpress-deployment.yaml
+│   ├── wordpress-pv.yaml
+│   ├── wordpress-pvc.yaml
+│   ├── wordpress-service.yaml
 ├── README.md
 ```
 
