@@ -53,6 +53,11 @@ Se despliegan los recursos de WordPress y MySQL dentro del namespace `wordpress`
 kubectl get pods,svc -n wordpress
 ```
 
+####  Clúster Kubernetes
+
+Se utiliza comando `kubectl cluster-info` para mostrar los endpoints principales del clúster, como el servidor API de Kubernetes y el DNS interno. Este comando es útil para validar que el clúster se encuentra funcionando y sea accesible.
+
+
 ![kubectl get nodes](evidencias/evidencia1.png)
 
 
